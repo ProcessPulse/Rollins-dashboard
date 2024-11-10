@@ -60,7 +60,7 @@ body {
 .link {
   color: #A8FF98;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 600;
   padding: 0.5em 0.8em;
   border-radius: 5px;
   transition: background-color 0.3s;

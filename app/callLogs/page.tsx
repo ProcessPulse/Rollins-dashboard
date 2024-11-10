@@ -4,16 +4,10 @@ import Layout from '../layout';
 // CALL LOGS
 const Page2: React.FC = () => (
   <Layout>
-    <div
-      style={{
-        width: "100%",
-        height: "calc(100vh - 50px)",
-        overflow: "hidden",
-      }}
-    >
+    <div className="full-screen-embed">
       <iframe
-        className="airtable-embed"
-        src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrP2sJTH7jKFQZC8"
+        className="responsive-iframe"
+        src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrP2sJTH7jKFQZC8?view=mobile"
         width="100%"
         height="100%"
         style={{ background: "transparent", border: "1px solid #ccc" }}

@@ -3,18 +3,15 @@ import Layout from './layout';
 
 const HomePage: React.FC = () => (
   <Layout>
-    <div style={{ width: '100%', height: 'calc(100vh - 50px)', overflow: 'hidden' }}>
-    <iframe
-        className="airtable-embed"
+    <div className="full-screen-embed">
+      <iframe
+        className="responsive-iframe"
         src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrJXqvSH72CI9frL"
-        width="100%"
-        height="100%"
-        style={{ background: 'transparent', border: '1px solid #ccc' }}
+        style={{ width: '100%', height: '100%', background: 'transparent', border: 'none' }}
         title="Overview"
-    />
+      />
     </div>
   </Layout>
 );
 
 export default HomePage;
-

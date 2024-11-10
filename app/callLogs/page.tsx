@@ -8,10 +8,7 @@ const Page2: React.FC = () => (
       <iframe
         className="responsive-iframe"
         src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrP2sJTH7jKFQZC8?view=mobile"
-        width="100%"
-        height="100%"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-        title="Second Airtable Interface"
+        title="Call Logs"
       />
     </div>
   </Layout>

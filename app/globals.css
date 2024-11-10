@@ -30,6 +30,10 @@ body {
   color: #A8FF98;
   border-bottom: 1px solid #333;
   font-family: sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 70px;
 }
 
 /* Branding styles */
@@ -157,6 +161,7 @@ body {
   height: 100vh;
   overflow: hidden;
   z-index: -1; 
+  padding-top: 70px;
 }
 
 /* Responsive iframe styling */

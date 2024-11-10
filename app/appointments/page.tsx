@@ -4,20 +4,11 @@ import Layout from "../layout";
 // APPOINTMETNS
 const Page3: React.FC = () => (
   <Layout>
-    <div
-      style={{
-        width: "100%",
-        height: "calc(100vh - 50px)",
-        overflow: "hidden",
-      }}
-    >
+    <div className="full-screen-embed">
       <iframe
         className="airtable-embed"
         src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrhxoCZyHpq9w10r"
-        width="100%"
-        height="100%"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-        title="Third Airtable Interface"
+        title="Appts"
       />
     </div>
   </Layout>

@@ -6,7 +6,7 @@ const Page4: React.FC = () => (
   <Layout>
     <div className="full-screen-embed">
       <iframe
-        className="airtable-embed"
+        className="responsive-iframe"
         src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrEeUhHt2UDfOThA"
         title="Fourth Airtable Interface"
       />

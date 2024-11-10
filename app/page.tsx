@@ -7,7 +7,6 @@ const HomePage: React.FC = () => (
       <iframe
         className="responsive-iframe"
         src="https://airtable.com/embed/appnY0OGs2OrZXWmy/shrJXqvSH72CI9frL"
-        style={{ width: '100%', height: '100%', background: 'transparent', border: 'none' }}
         title="Overview"
       />
     </div>
